@@ -43,3 +43,7 @@ cbindgen = "= 0.14.0"
 [dev-dependencies]
 tempfile = "3.0.8"
 
+[patch.crates-io]
+filecoin-proofs = { git = "https://github.com/filecoin-project/rust-fil-proofs", branch= "feat/aarch64" }
+fil-sapling-crypto = { git = "https://github.com/filecoin-project/sapling-crypto", rev = "712d5dc" }
+fff = { git = "https://github.com/filecoin-project/ff", rev = "5fd551e" }
